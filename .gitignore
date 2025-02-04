@@ -1,0 +1,34 @@
+# Ignore node_modules
+client/node_modules/
+server/node_modules/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Firebase Service Account Key
+server/serviceAccountKey.json
+
+# Environment Variables
+.env
+
+# OS/Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Build Output
+dist/
+build/
+
+# Debugging Files
+*.log
+*.lock
+
+# IDE Specific Files
+.idea/
+.vscode/
+*.iml
